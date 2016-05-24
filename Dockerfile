@@ -8,5 +8,7 @@ RUN pacman -Sy \
     && rm -rf /home /srv /mnt /opt /boot /root /tmp/* /var/tmp/
 
 VOLUME ["/data"]
-CMD fetchmail -i /data/.fetchids -f /data/.fetchmailrc
+ADD fetchmail_daemon.sh /bin/fetchmail_daemon.sh
+
+CMD ["/bin/sh", "/bin/fetchmail_daemon.sh"]
 
