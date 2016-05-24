@@ -1,2 +1,7 @@
 # docker-fetchmail
-A fetchmail docker container.
+![license](https://img.shields.io/github/license/sesceu/fetchmail.svg "license")
+![stars](https://img.shields.io/docker/stars/sesceu/fetchmail.svg "stars")
+![pulls](https://img.shields.io/docker/pulls/sesceu/fetchmail.svg "pulls")
+
+A docker build context for [Fetchmail](http://www.fetchmail.info).
+
