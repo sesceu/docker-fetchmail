@@ -1,5 +1,5 @@
 # docker-fetchmail
-![license](https://img.shields.io/github/license/sesceu/fetchmail.svg "license")
+![license](https://img.shields.io/github/license/sesceu/docker-fetchmail.svg "license")
 ![stars](https://img.shields.io/docker/stars/sesceu/fetchmail.svg "stars")
 ![pulls](https://img.shields.io/docker/pulls/sesceu/fetchmail.svg "pulls")
 
