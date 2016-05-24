@@ -8,5 +8,5 @@ RUN pacman -Sy \
     && rm -rf /home /srv /mnt /opt /boot /root /tmp/* /var/tmp/
 
 VOLUME ["/data"]
-RUN fetchmail -i /data/.fetchids -f /data/.fetchmailrc
+CMD fetchmail -i /data/.fetchids -f /data/.fetchmailrc
 
