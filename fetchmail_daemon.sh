@@ -2,6 +2,6 @@
 
 while :
 do
-  fetchmail $FETCHMAIL_ARGUMENTS
+  fetchmail $@
   sleep 300
 done
